@@ -1,0 +1,362 @@
+* {
+    box-sizing: border-box;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(2) > div:nth-child(2) > div.panel-body > div:nth-child(3) > span{
+        margin-left: 74px;
+    margin-top: 8px;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(2) > div:nth-child(2) > span{
+    
+  margin-left: 66px;
+    margin-top: 29px;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(2) > div:nth-child(2) > span:nth-child(12){
+     margin-left: 75px;
+    margin-top: 9px
+}
+.custaddcity{
+    background-color: #fff;
+    color:#000 !important;
+    border: #1d16ab;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 2px 13px;
+    height: 30px;
+    color:white;
+        margin-left: 10px;
+/*    margin-top: -3px !important;*/
+
+}
+.custaddcity:hover{
+    background-color: #3333ff;
+    color: white !important;
+}
+
+.buttonsubmit{
+    background-color: #fff;
+    color: #000;
+    border: green;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    cursor: pointer;*/
+    margin-left: 73%;
+    float: left;
+    height: 43px;
+   
+}
+.buttonsubmit:hover{
+    background-color: #3e8e41;
+    color:white;
+}
+
+.buttonreset{
+   padding: 5px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: red;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 9px;
+/*    cursor: pointer;*/
+    float: left;
+    height: 43px;
+
+}
+.buttonreset:hover{
+    background-color: #ff4d4d !important;
+    color:white !important;
+}
+
+
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+
+.cust-body {
+	padding: 0px 10px;
+}
+
+.suppselect {
+     width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+
+}
+#page-top > div > div.container-fluid > form > div:nth-child(2) > div:nth-child(2) > div.panel-body > div:nth-child(3){
+  margin-bottom: 0!important;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(2) > div:nth-child(2) > div.panel-body > div:nth-child(1){
+    margin-bottom: 0!important;
+}
+
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+/*    cursor: pointer;*/
+     margin-left: 69%;
+    float: left;
+    height: 43px;
+}
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+/*    cursor: pointer;*/
+    float: left;
+    height: 43px;
+}
+.suppname{
+    margin-left: 47px;
+}
+.address1{
+    margin-left: 55px;
+}
+.address2{
+    margin-left: 17px;
+}
+
+.suppstate {
+    margin-left: 64px;
+      margin-top: 29px;
+}
+.suppbankname{
+    margin-left: 55px;
+}
+.lname {
+    margin-left: 62px;
+}
+.suppcity{
+    margin-left: 73px;
+
+}
+.supptext{
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+}
+.supptextemail{
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+   
+}
+.suppformmargin{
+    margin:5px 15px 15px 15px;
+}
+.suppifsc{
+    margin-left: 83px;
+}
+.suppacno{
+    margin-left: 50px;
+}
+.suppacname{
+    margin-left: 13px;
+}
+.suppbranch{
+    margin-left: 18px;
+}
+.supppin{
+   margin-left: 49px;
+}
+.suppaddress{
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-top: 10px;
+    margin-left: 130px
+}
+.suppsubmit{
+    margin-left: -54px;
+}
+.supptype{
+    margin-left: 27px;
+        margin-top: 10px;
+    padding-left: 10px;
+}
+.suppphone{
+    margin-left: 12px;
+}
+.suppphone1 {
+    margin-left: 12px;
+}
+.suppphone2 {
+    margin-left: 12px;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(2) > div:nth-child(2) > div.panel-body > div:nth-child(1) > span {
+        margin-left: 65px;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(6) > div:nth-child(1) > span{
+    margin-left: 56px;
+    margin-top: 9px;
+}
+.suppemail {
+    margin-left: 78px;
+}
+/*
+#accname{
+   margin-left: 12px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+#accountno{
+    margin-left: 45px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#branch,#code{
+   margin-left: 47px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#ifsc{
+   margin-left: 103px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+#code{
+    margin-bottom: 70px !important;
+    margin-left: 99px !important;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+*/
+
+
+label {
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+/*
+.buttonsubmit{
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 68%;
+    float: left;
+    height: 43px;
+
+}
+*/
+.addbutton{
+        background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+
+}
+/*
+.buttonreset{
+     background-color: #e00f1b;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+
+}
+*/
+.supprow{
+    margin-top: -18px;
+}
+
+/*
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+input[type=reset] {
+    background-color: #FF8C00;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+*/

@@ -1,0 +1,393 @@
+.smodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.smodal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.sclose {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sclose:hover,
+.sclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.smodal-header {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+    
+}
+
+.smodal-body {padding: 2px 16px;}
+
+.smodal-footer {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+.streportsubmit{
+        margin-left: -60px;!important
+    
+}
+
+.streportmodalbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    float: right;
+    color: white;
+}
+.streportadd{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 6px;
+    color:white;
+    
+}
+.streportaddbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 65px;
+}
+.streportmtext{
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+}
+
+.streporttext{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;  
+}
+.streportd{
+    margin-left: 27px;
+    margin-top: 10px;
+   
+}
+.radio-inline,
+.checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.streportlabel{
+    padding:6px -1px 6px 0px !important; 
+}
+.stocklabel{
+    padding:6px -1px 6px 0px; !important
+}
+
+
+label {
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+.streportdate{
+   margin-top: 10px;
+    margin-left: 7px;
+}
+.stbuttonsubmit{
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 68%;
+    margin-top: 20px;
+    float: left;
+    height: 43px;   
+}
+.streportrow{
+    margin-top: -18px;
+}
+.streportsales{
+        margin-left: 27px;
+}
+.streportselect{
+    width: 67%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    
+}
+.streportborder{
+
+    max-width: 90% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 20px;
+    padding-left: 11%;
+    height: 50px;
+/* text-align: center !important;*/
+}
+.streportborder1{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 20px;
+    height: 50px;
+}
+.streportborder2{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 10px;
+    height: 50px;
+}
+.streportbord{
+
+    max-width: 46% !important;
+    border: 2px solid lightgrey;
+    margin:10px 0px 0px 20px;
+/*  padding: 0px 10px 0px 0px;*/
+    height: 50px;
+    text-align: center;
+ 
+}
+.streporttselect{
+    margin-top: 20px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.streportradio{
+/*    padding: 0px 10px 0px 0px;*/
+    max-width:30% !important;
+    border: 2px solid lightgrey;
+    margin-top:10px ;
+    margin-left: 35px;
+
+}
+.storeportradio{
+/*    padding: 0px 10px 0px 0px;*/
+    max-width:30% !important;
+    border: 2px solid lightgrey;
+    margin-top:10px ;
+    margin-left: 10px;
+
+}
+.streportproduct{
+    margin:0px -12px 0px -18px !important;
+}
+.streportpro{
+    margin-left: -1px;
+}
+
+.streportcheck{
+     margin-top:40px;
+    margin-left: 5px;
+}
+.streportcheck1{
+   margin-left: 6px;
+    margin-top: 14px;
+}
+
+.addbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    
+}
+.stbuttonreset{
+     background-color: #e00f1b;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+    
+}
+
+.buttonsubmit{
+    background-color: #fff;
+    color: #000;
+    border: green;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    cursor: pointer;*/
+    margin-left: 73%;
+    float: left;
+    height: 43px;
+   
+}
+.buttonsubmit:hover{
+    background-color: #3e8e41;
+    color:white;
+}
+.buttonreset{
+   padding: 5px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: red;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 9px;
+/*    cursor: pointer;*/
+    float: left;
+    height: 43px;
+
+}
+.buttonreset:hover{
+    background-color: #ff4d4d !important;
+    color:white !important;
+}
+
+/*
+
+.ptex{
+    text-transform: capitalize;
+    margin-left: 5px;
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}*/
+.ptext{
+   
+    margin-left: 14px;
+    width: 21%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptextd{
+   
+    margin-left: 14px;
+    width: 29%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptext1{
+
+    margin-left: 9px;
+    width: 7%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}

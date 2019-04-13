@@ -1,0 +1,26 @@
+#dataTable > thead > tr > th:nth-child(3).sorting_desc:after{
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(3).sorting_asc:after{
+     display: none !important;
+}
+
+#dataTable > thead > tr > th:nth-child(3).sorting:after {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(3).sorting:before {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(3).sorting_asc:before{
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(3).sorting_desc:before{
+     display: none !important;
+}
+
+#dataTable > thead > tr > th:nth-child(3).sorting_desc:after{
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(3).sorting_asc:after{
+     display: none !important;
+}

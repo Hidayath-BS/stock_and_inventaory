@@ -1,0 +1,1470 @@
+.smodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/*
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(1) > td > span > span.selection > span{
+    margin-top:-27px;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(1) > td > span > span.selection > span > span.select2-selection__arrow{
+     margin-top:-27px;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > span > span.selection > span{
+     margin-top:-45px;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > span > span.selection > span > span.select2-selection__arrow{
+    margin-top:-45px;
+}
+
+#page-top > span > span{
+    margin-left: -24px;
+    margin-top:-32px;
+}
+*/
+#page-top > div > div.container-fluid > form > div:nth-child(2) > div:nth-child(2) > table > tbody > tr:nth-child(n){
+    background-color: #fff;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(2) > table > tbody > tr:nth-child(n){
+    background-color: #fff;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(n){
+    background-color: #fff;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(2) > div:nth-child(1) > table > tbody > tr:nth-child(n){
+    background-color: #fff;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(1) > td > span{
+      margin-top: 0px;
+    margin-bottom: 0px;
+    width:99% !important;
+
+}
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > span{
+       margin-top: -25px;
+     margin-bottom: -11px;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(3) > td > span{
+    margin-top: 0px;
+    margin-bottom: 0px;
+     width:55% !important;
+}
+/*
+#page-top > span > span{
+    margin-left: -25px;
+}
+*/
+/*
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(1) > td > span{
+    width:210px !important;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > span{
+     width:210px !important;
+}
+*/
+/*
+#select2-employee-container{
+    margin-left: 20px;
+}
+*/
+
+#page-top > div.content-wrapper > div > form > div:nth-child(3) > div:nth-child(1) > table > tbody > tr:nth-child(1) > td > span{
+    width: 78% !important;
+    margin-left: 40px!important;
+     margin-bottom: 0px!important;
+     margin-top: 0px!important;
+}
+
+#page-top > span > span{
+        margin-left: -35px;
+    margin-top: 0px;
+}
+.adddate{
+   width: 20%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+        margin-left: -1px;
+}
+.adddate1{
+        margin-top: -11px;
+    margin-left: 0px;
+}
+
+.emp{
+    margin-left: 55px;
+    width:52%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+/*    margin-left: 30px;*/
+}
+.addre{
+    margin-left: 45px;
+    width: 55%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    line-height: 90px;
+
+}
+.pwidth{
+    width:79%;
+}
+.punit{
+    width:68%;
+    margin-left:22px;
+}
+.ptext{
+    text-transform: capitalize;
+    margin-left: 35px;
+    width: 84%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptextp{
+    text-transform: capitalize;
+    margin-left: -11px;
+    width: 99%;
+   // padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  //  height:28px;
+}
+.expensefont{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+}
+.expensebutton{
+    height:30px;
+    width:20px;
+    border-radius:20px;
+
+}
+.expremove{
+     margin-left: -7px !important;
+    color:white;
+}
+.pexptext{
+    text-transform: capitalize;
+    margin-left: 22px;
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptext1{
+    text-transform: capitalize;
+    margin-left: 27px;
+    width: 78%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptext15{
+    text-transform: capitalize;
+    margin-left: 34px;
+    width: 88%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptext41{
+    text-transform: capitalize;
+    margin-left: 72px;
+    width: 72%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptext42{
+    text-transform: capitalize;
+    margin-left: 5px;
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptext21{
+    text-transform: capitalize;
+    margin-left: -11px;
+    width: 65%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptext22{
+    text-transform: capitalize;
+    margin-left: 34px;
+    width: 71%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+.ptext31{
+    text-transform: capitalize;
+    margin-left: -11px;
+    width: 99%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptext33{
+    text-transform: capitalize;
+    margin-left: 6px;
+    width: 92%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptext2{
+    text-transform: capitalize;
+    margin-left: 16px;
+    width: 99%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.plocation{
+    text-transform: capitalize;
+    margin-left: 22px;
+    width: 68%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.plabour{
+    text-transform: capitalize;
+    margin-left: 89px;
+    width: 81%;
+    padding: 12px;
+/*    padding-left: 90px;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptransportation{
+    text-transform: capitalize;
+    margin-left: 89px;
+    width: 81%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+.pposttele{
+    text-transform: capitalize;
+    margin-left: 89px;
+    width: 81%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+.pmiscellaneous{
+    text-transform: capitalize;
+    margin-left: 89px;
+    width: 81%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptotalpa{
+    text-transform: capitalize;
+    margin-left: 90px;
+    width: 81%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.ptotalam{
+    text-transform: capitalize;
+    margin-left: 90px;
+    width: 81%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+.ptotaldue{
+    text-transform: capitalize;
+    margin-left: 90px;
+    width: 81%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+
+/* Modal Content */
+.smodal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.sclose {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sclose:hover,
+.sclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.smodal-header {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+
+}
+
+.smodal-body {padding: 2px 16px;}
+
+.smodal-footer {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+.cashsubmit{
+        margin-left: -60px;!important
+}
+
+/*
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 145px;
+    float: left;
+    height: 43px;
+}
+*/
+.cashamt{
+    margin-left: 15px;
+}
+/*
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+
+}
+*/
+.purmodalbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    float: right;
+    color: white;
+}
+.cashadd{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 6px;
+    color:white;
+
+}
+.cashaddbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 65px;
+}
+.cashmtext{
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+}
+
+.cashtext{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+}
+.cashtd{
+    margin-left: 27px;
+    margin-top: 10px;
+
+}
+.radio-inline,
+.checkbox-inline {
+  position: relative;
+  display: inline-block;
+/*  padding-left: 20px;*/
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.purcomm{
+    text-transform: capitalize;
+          margin-left: 8px;
+    width: 79%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+}
+.purcomm1{
+    text-transform: capitalize;
+          margin-left: 8px;
+    width: 79%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+}
+.cashlabel{
+    padding:6px -1px 6px 0px !important;
+}
+.cashlabel{
+    padding:6px -1px 6px 0px; !important
+}
+
+
+label {
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+.cashdate{
+   margin-top: 10px;
+    margin-left: 7px;
+}
+/*
+.buttonsubmit{
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 108px;
+    float: left;
+    height: 43px;
+}
+*/
+.cashrow{
+    margin-top: -18px;
+}
+.cashsales{
+        margin-left: 27px;
+}
+.cashselect{
+    width: 67%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+
+}
+.cashborder{
+
+    max-width: 90% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 20px;
+    padding-left: 11%;
+    height: 50px;
+/* text-align: center !important;*/
+}
+.cashborder1{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 20px;
+    height: 50px;
+}
+.cashborder2{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 10px;
+    height: 50px;
+}
+.cashbord{
+    max-width: 25% !important;
+    border: 2px solid lightgrey;
+    margin: 10px 0px 0px 20px;
+    height: 100px;
+
+}
+.cashselect{
+    margin-top: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.cashradio{
+    max-width: 18% !important;
+    border: 2px solid lightgrey;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+}
+.cashradio1{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+}
+
+.cashproduct{
+    margin:0px -12px 0px -18px !important;
+}
+.cashpro{
+    margin-left: -1px;
+}
+
+.cashcheck{
+     margin-top:18px;
+    margin-left: 5px;
+}
+.cashcheck1{
+   margin-left: 6px;
+    margin-top: 14px;
+}
+
+.addbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+
+}
+/*
+.buttonreset{
+     background-color: #e00f1b;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+
+}
+*/
+.buttonsave{
+
+    margin-left: -329px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 11px;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(5) > div:nth-child(2) > div > button.buttonsave.btn.btn-primary{
+    line-height: 0.5 !important;
+}
+.buttonsave1{
+
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 11px;
+    color: white;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(5) > div:nth-child(2) > div > button.buttonsave1.btn.btn-warning
+{
+     line-height: 0.5 !important;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(5) > div:nth-child(2) > div > button.buttonsave1.btn.btn-warning:hover {
+    color: white !important;
+}
+.buttonsave2{
+
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+margin-top: 11px;
+}
+.buttons{
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+/*    float: right;*/
+    height: 30px;
+/*
+   margin-top: -150px;
+    margin-right: 38px;
+*/
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(5) > div:nth-child(2) > div > button.buttonsave2.btn.btn-danger{
+    line-height: 0.5 !important;
+}
+.buttons1{
+/*     background-color: ;*/
+/*    padding: 10px 20px;*/
+/*    margin-left: -668px;*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+/*    float: right;*/
+    height: 30px;
+   margin-top: -2px;
+    margin-right: 91px;
+}
+
+
+#page-top > div.content-wrapper > div > form > div:nth-child(10) > div.col-md-6 > button{
+    line-height: 0.5 !important;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(10) > div.col-md-1 > button {
+    line-height: 0.5 !important;
+}
+
+.buttonsav{
+
+    margin-left: -668px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 7px;
+}
+#page-top > div.content-wrapper > div > form > div.row.pursave1 > button.buttonsav.btn.btn-primary{
+    line-height: 0.5 !important;
+}
+.buttonsav1{
+/*     background-color: #008000;*/
+/*    padding: 10px 20px;*/
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+/*    float: left;*/
+    height: 30px;
+    margin-top: 7px;
+    color: white;
+}
+
+
+#page-top > div.content-wrapper > div > form > div.row.pursave1 > button.buttonsav1.btn.btn-warning{
+     line-height: 0.5 !important;
+}
+#page-top > div.content-wrapper > div > form > div.row.pursave1 > button.buttonsav1.btn.btn-warning:hover {
+    color: white !important;
+}
+.buttonsav2{
+/*     background-color: #008000;*/
+/*    padding: 10px 20px;*/
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+/*    float: left;*/
+    height: 30px;
+margin-top: 7px;
+}
+
+#page-top > div.content-wrapper > div > form > div.row.pursave1 > button.buttonsav2.btn.btn-danger{
+     line-height: 0.5 !important;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(4) > button.buttonsave2.btn.btn-danger{
+     line-height: 0.5 !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+/*    margin-top: -41px;*/
+
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+/*
+
+#table > thead > tr:nth-child(n):hover{
+    background-color: #eee;
+}
+#table > thead > tr:nth-child(n):active{
+    background-color: #A0A0A0;
+}
+#dataTable > thead > tr:nth-child(n):hover{
+    background-color: #eee;
+}
+#dataTable > thead > tr:nth-child(n):active{
+     background-color: #A0A0A0;
+}
+#dataTable > thead > tr.selected  {
+    background-color: black !important;
+}
+
+*/
+
+.expen {
+width: 86%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+    margin-left: 38px;
+
+}
+
+select {
+     width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.qtyselect {
+     width: 32%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+/*
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+}
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 145px;
+    float: left;
+    height: 43px;
+}
+*/
+.purtext{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+}
+.purunit {
+/*    margin-top: -4px;*/
+    margin-left: -9px;
+    width: 70%;
+    margin-bottom: 0px;
+
+}
+/*
+input[type=text], textarea{
+    width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+*/
+
+/*
+#name{
+    margin-left: -13px;
+}
+#name1{
+     margin-left: 62px;
+}
+
+#state {
+    margin-left: 192px;
+
+
+}
+#address1 {
+    margin-left: 87px;
+    width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#netweight {
+
+    margin-left:6%;
+    margin-top: -09%;
+    width: 48%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+
+}
+
+#phone {
+    margin-left: 38px;
+    width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#total {
+    margin-left: 74px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#transid {
+    margin-left: 2%;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+#phone1 {
+    margin-left: -5px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#accname{
+   margin-left: 12px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+#emptyw{
+   margin-left: 9px;
+     width: 35%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+#accountno{
+    margin-left: 64px;
+     width: 35%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+
+}
+
+#shrink{
+    margin-left: 124px;
+     width: 35%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#branch{
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-top:10px;
+
+}
+#final{
+    margin-left:2%;
+    margin-top: -9% !important;
+     width: 48%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-top:10px;
+    background: #e6e1e1;
+}
+#chequeno{
+    margin-left:-7px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-top:10px;
+}
+*/
+/*
+#location{
+    margin-left:47px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-top:10px;
+}
+*/
+
+/*
+#ifsc{
+   margin-left: 124px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#loaded{
+    width:144%;
+    margin-left: -139px;
+    height: 25px;
+}
+#loaded1{
+    width:144%;
+    margin-left:-200px;
+    height:25px;
+}
+*/
+label {
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+/*
+.buttonsubmit{
+    background-color: #534fa9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 68%;
+    float: left;
+    height: 43px;
+
+
+}
+*/
+.purrowsubmit{
+    margin-left: 60%;
+}
+.pursubmit{
+    margin-left:62%;
+    margin-top: 10px;
+}
+.pursave{
+    margin-left: 132%;
+
+    }
+.pursave1{
+    margin-left: 114%;
+    margin-top: 10px;
+    }
+.addbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+
+}
+
+.puradd{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 6px;
+    color:white;
+
+}
+.puraddbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 65px;
+}
+
+/*
+#name,#emptyw,#accountno,#shrink,#city{
+    margin-left: 22px;
+    width: 68%;
+}
+*/
+#transid,#chequeno{
+    padding: 2px;
+    margin-left: 0px;
+    width: 70%;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(1) > table{
+    width: 100%;
+}
+
+/*
+#address1,#phone1,#phone,#netweight,#final,#total{
+    margin-left: 70px;
+    padding: 2px;
+    width: 70%;
+}
+*/
+/*
+#advance,#advancepaid,#balpayble,#balpaid{
+    margin-left: 70px;
+    padding: 2px;
+    width: 70%;
+}
+*/
+#page-top > div > div.container-fluid > form > div:nth-child(1) > div:nth-child(2) > table{
+    width: 90%;
+}
+.buttonsave{
+    background-color: #fff;
+    color: #000;
+    border: #0062cc;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    cursor: pointer;*/
+/*    margin-left: 73%;*/
+    float: left;
+    height: 37px;
+
+}
+.buttonsave:hover{
+    background-color: #007bff;
+    color:white;
+}
+.buttonsave1{
+    background-color: #fff;
+    color: #000;
+    border: #ffc107;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    cursor: pointer;*/
+/*    margin-left: 73%;*/
+    float: left;
+    height: 37px;
+
+}
+.buttonsave1:hover{
+    background-color: #ffc107;
+    color:white;
+}
+.buttonsave2{
+   padding: 5px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: #dc3545;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 9px;
+/*    cursor: pointer;*/
+    float: left;
+    height: 37px;
+
+}
+.buttonsave2:hover{
+    background-color: #dc3545 !important;
+    color:white !important;
+}
+
+.buttons{
+   padding: 0px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: green ;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    margin-left: 9px;*/
+/*    cursor: pointer;*/
+/*    float: left;*/
+    height: 29px;
+    width: 61px;
+
+}
+.buttons:hover{
+    background-color: #3e8e41 !important;
+    color:white !important;
+}
+
+
+
+
+
+
+
+.buttonsav{
+    background-color: #fff;
+    color: #000;
+    border: #0062cc;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    cursor: pointer;*/
+/*    margin-left: 73%;*/
+    float: left;
+    height: 37px;
+
+}
+.buttonsav:hover{
+    background-color: #007bff;
+    color:white;
+}
+.buttonsav1{
+    background-color: #fff;
+    color: #000;
+    border: #ffc107;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    cursor: pointer;*/
+/*    margin-left: 73%;*/
+    float: left;
+    height: 37px;
+
+}
+.buttonsav1:hover{
+    background-color: #ffc107;
+    color:white;
+}
+.buttonsav2{
+   padding: 5px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: #dc3545;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 9px;
+/*    cursor: pointer;*/
+    float: left;
+    height: 37px;
+
+}
+.buttonsav2:hover{
+    background-color: #dc3545 !important;
+    color:white !important;
+}
+
+.buttons1{
+   padding: 0px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: green ;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    margin-left: 9px;*/
+/*    cursor: pointer;*/
+/*    float: left;*/
+    height: 29px;
+    width: 61px;
+
+}
+.buttons1:hover{
+    background-color: #3e8e41 !important;
+    color:white !important;
+}
+.buttonsubmit{
+    background-color: #fff;
+    color: #000;
+    border: green;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 4px;
+/*    cursor: pointer;*/
+    margin-left: 52%;
+/*    float: left;*/
+    height: 43px;
+
+}
+.buttonsubmit:hover{
+    background-color: #3e8e41;
+    color:white;
+}
+.buttonreset{
+   padding: 5px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: red;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 4px;
+    margin-left: 9px;
+/*    cursor: pointer;*/
+    float: left;
+    height: 43px;
+
+}
+.buttonreset:hover{
+    background-color: #ff4d4d !important;
+    color:white !important;
+}
+
+.vl {
+   border-left: 2px solid #eee;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: 295px;
+    top: 288px;
+}
+#purchase_form > div:nth-child(10) > div.col-md-5 > table > tbody > tr:nth-child(4) > td > label:nth-child(1) > b{
+  font-size: 10px;
+}
+#purchase_form > div:nth-child(10) > div.col-md-5 > table > tbody > tr:nth-child(4) > td > label:nth-child(2) > b{
+  font-size: 10px;
+}

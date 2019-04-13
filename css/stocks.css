@@ -1,0 +1,235 @@
+#dataTable_filter > label{
+    margin-left: 248%;
+}
+#dataTable_paginate > ul{
+    margin-left: 306%;
+}
+#dataTable_wrapper > div:nth-child(3){
+    margin-top: 35%;
+}
+#page-top > div > div > div.card.mb-3 > div.card-body > div > div:nth-child(2) > div{
+       margin-top: -18%;
+    margin-left: 25%;
+}
+.smodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.smodal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+.modalbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    float: right;
+    color: white;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.sclose {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sclose:hover,
+.sclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.smodal-header {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+    
+}
+
+.smodal-body {padding: 2px 16px;}
+
+.smodal-footer {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 63px;
+    
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+.stockrow{
+    margin-top: -18px;
+}
+
+select {
+     width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 73%;
+    float: left;
+    height: 43px;
+    margin-top: 30px;
+}
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+    margin-top: 30px;
+}
+.stockmodalbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    float: right;
+    color: white;
+}
+.tablemargin{
+    margin-top: 70px;
+}
+.stockadd{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 6px;
+    color:white;
+    
+}
+.stockaddbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 65px;
+}
+
+
+label {
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+.buttonsubmit{
+    background-color: #534fa9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 68%;
+    float: left;
+    height: 43px;
+    
+    
+}
+.addbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    
+}
+.buttonreset{
+     background-color: #f3565f;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+    
+}
+

@@ -1,0 +1,400 @@
+.smodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.smodal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+#page-top > div > div.container-fluid > form > div:nth-child(2) > div > span:nth-child(3){
+       margin-left: -1px;
+    margin-bottom: 7px;
+    margin-top: 1px;
+}
+#page-top > div > div.container-fluid > form > div:nth-child(2) > div > span:nth-child(7){
+          margin-left: 5px;
+    margin-top: 6px;
+}
+
+#page-top > div.content-wrapper > div > form > div:nth-child(2) > div > span:nth-child(8){
+        margin-left: 6px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#page-top > div.content-wrapper > div > form > div:nth-child(2) > div > span:nth-child(6){
+    margin-left: -12px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+#page-top > div.content-wrapper > div > form > div:nth-child(2) > div > span:nth-child(11){
+       margin-left: -4px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+.adtext1{
+     width: 49%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize; 
+        margin-left: 61px;
+}
+.suppadd{
+    background-color: #fff;
+    color: #000 !important;
+    border: #1d16ab;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 2px 13px;
+    height: 30px;
+    color: white;
+    margin-left: 10px;
+}
+.suppadd:hover{
+    background-color: #1a1aff;
+    color:white !important;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.sclose {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sclose:hover,
+.sclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.smodal-header {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+    
+}
+
+.smodal-body {padding: 2px 16px;}
+
+.smodal-footer {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+.salesrow{
+    margin-top: -18px;
+}
+#check{
+   margin-top:20px;
+    margin-right: 10px;
+}
+
+select {
+     width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.advancesubmit{
+    margin-left: 53%;!important
+}
+
+/*
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+
+}
+*/
+.adsubmit{
+    margin-left: -9%;
+}
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+/*    margin-top: 30px;*/
+}
+.salesmodalbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    float: right;
+    color: white;
+}
+.advanceadd{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 6px;
+    color:white;
+    
+}
+.advanceaddbutton{
+    background-color: #1d16ab;
+/*    background-color: firebrick;*/
+    background-color:
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 65px;
+}
+
+.advancetext{
+     width: 49%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;  
+}
+
+label {
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+/*
+.buttonsubmit{
+    background-color: #534fa9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 68%;
+    float: left;
+    height: 43px;
+    
+    
+}
+*/
+.advancename{
+    margin-top: 10px;
+    margin-left: -2px;
+}
+.advancetype{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.advanceamount{
+        margin-left: 20px;
+}
+.advanceamount1{
+        margin-left: 37px;
+}
+/*
+.addbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    
+}
+.buttonreset{
+     background-color: #e00f1b;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+    
+}
+*/
+.buttonsubmit{
+  background-color: #fff;
+    color: #000;
+    border: green;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 73%;
+    float: left;
+    height: 43px;
+    
+}
+.buttonsubmit:hover{
+     background-color: #3e8e41;
+    color:white;
+}
+.buttonreset{
+      padding: 5px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: red;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 9px;
+
+    float: left;
+    height: 43px;
+
+    
+}
+
+.buttonreset:hover{
+  background-color: #ff4d4d !important;
+    color:white !important;
+}
+
+#dataTable > thead > tr > th:nth-child(5).sorting:after {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(5).sorting:before {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(5).sorting_asc:before{
+     display: none !important;
+}
+
+
+#dataTable > thead > tr > th:nth-child(5).sorting_desc:before{
+     display: none !important;
+}
+
+#dataTable > thead > tr > th:nth-child(5).sorting_desc:after{
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(5).sorting_asc:after{
+     display: none !important;
+}
+
+
+
+#dataTable > thead > tr > th:nth-child(6).sorting:after {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(6).sorting:before {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(6).sorting_asc:before{
+     display: none !important;
+}
+
+
+#dataTable > thead > tr > th:nth-child(6).sorting_desc:before{
+     display: none !important;
+}
+
+#dataTable > thead > tr > th:nth-child(6).sorting_desc:after{
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(6).sorting_asc:after{
+     display: none !important;
+}
+
+/*
+#dataTable > thead > tr > th:nth-child(3).sorting:after {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(3).sorting:before {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(3).sorting_asc:before{
+     display: none !important;
+}
+*/
+
+#page-top > span > span{
+    margin-left:-23px;
+}
+

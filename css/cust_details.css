@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(2) > div:nth-child(2) > div.panel-body > div:nth-child(3) > span{
+    margin-left:33px;
+    margin-top:12px;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(2) > div:nth-child(2) > span{
+    margin-top: 26px;
+    margin-left: 26px;
+}
+#page-top > div.content-wrapper > div > form > div:nth-child(2) > div:nth-child(2) > span:nth-child(11){
+       margin-left: 35px;
+    margin-top: 8px;
+}
+#dataTable > thead > tr > th:nth-child(10).sorting:after {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(10).sorting:before {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(10).sorting_asc:before{
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(10).sorting_desc:before{
+     display: none !important;
+}
+
+#dataTable > thead > tr > th:nth-child(9).sorting_desc:after{
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(9).sorting_asc:after{
+     display: none !important;
+}
+
+#dataTable > thead > tr > th:nth-child(9).sorting:after {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(9).sorting:before {
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(9).sorting_asc:before{
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(9).sorting_desc:before{
+     display: none !important;
+}
+
+#dataTable > thead > tr > th:nth-child(9).sorting_desc:after{
+     display: none !important;
+}
+#dataTable > thead > tr > th:nth-child(9).sorting_asc:after{
+     display: none !important;
+}
+
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 22px;
+
+}
+
+
+
+.custaddcity{
+   
+    background-color: #fff;
+    color:#000 !important;
+    border: #1d16ab;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 0px 13px;
+
+   margin-left: 10px;
+
+    height: 30px;
+    color:white;
+
+}
+
+.custaddcity:hover{
+    background-color: #3333ff;
+    color: white !important;
+}
+.cust-body{
+    padding:15px;
+    
+}
+
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+
+select {
+    padding-left: 10px;
+     width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+input[type=text], textarea{
+    width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+/*
+.custtd{
+    text-align: center;
+}
+*/
+.rowmargin{
+    margin-top: -18px;
+}
+.custselect{
+    margin-left: 32px;
+
+}
+.custtselect{
+  margin-top: 28px;
+  margin-left: 32px;
+}
+.custtstate{
+  margin-left: 23px;
+}
+.custstate{
+  margin-left: 23px;
+    margin-top: 26px;
+}
+.name{
+    margin-left: 65px;
+}
+.lname {
+    margin-left: 77px;
+}
+.custtype {
+    margin-left: 34px;
+}
+.address1{
+    margin-left: 14px;
+}
+.address2{
+    margin-left: 87px;
+    margin-top: -10px;
+}
+.email{
+    margin-left: 109px;
+    margin-top: -18px;
+}
+.proname {
+    margin-left: 19px;!important
+}
+.custpincode{
+    margin-left: 8px;
+}
+
+.custpincode1{
+   margin-left: 10px;
+}
+.phone1{
+    margin-left: 29px;
+    margin-top: 9px;!important
+  }
+.landline{
+    margin-left: 30px;
+    margin-top: 9px;!important
+  }
+.email{
+    margin-left: 95px;
+    margin-top: 9px;!important
+  }
+.custtext{
+    width: 48%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+   height:28px;
+   text-transform: capitalize !important;
+  }
+.custtextemail{
+    width: 48%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+   height:28px;
+
+  }
+.phone {
+    margin-left: 29px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.buttonsubmit{
+    background-color: #fff;
+    color: #000;
+    border: green;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    cursor: pointer;*/
+    margin-left: 73%;
+    float: left;
+    height: 43px;
+   
+}
+.buttonsubmit:hover{
+    background-color: #3e8e41;
+    color:white;
+}
+
+.custadd{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 6px;
+    color:white;
+
+}
+.custaddbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+/*    cursor: pointer;*/
+    height: 30px;
+      float: right;
+    margin-top: -30px;
+    margin-right: 65px;
+
+}
+.addbutton{
+        background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+
+}
+.addbutton2{
+        background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-left: 10px;
+    margin-right: -5px;
+    color: white;
+
+}
+.addbutton1{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    height: 30px;
+    float: right;
+    margin-top: -30px !important;
+    margin-left: 10px;
+    margin-right:70px;
+    color: white;
+
+}
+
+.buttonreset{
+   padding: 5px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: red;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 9px;
+/*    cursor: pointer;*/
+    float: left;
+    height: 43px;
+
+}
+.buttonreset:hover{
+    background-color: #ff4d4d !important;
+    color:white !important;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+input[type=reset] {
+    background-color: #FF8C00;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.custrow{
+    margin-top: -18px;
+}
+.custtrow{
+  margin-top: -36px;
+}
+
+.m-25{
+  margin: 25px;
+}

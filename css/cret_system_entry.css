@@ -1,0 +1,55 @@
+.custstyle{
+   padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+    text-transform: capitalize;
+    width: 50%;
+    margin-left: 6%;
+}
+.numcrets{
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+    text-transform: capitalize;
+    width: 50%;
+    margin-left: 5%;
+}
+.camount{
+  padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+    text-transform: capitalize;
+    width: 50%;
+    margin-left:17%;  
+}
+.rcrets{
+   padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+    text-transform: capitalize;
+    width: 50%;
+    margin-left: 6%; 
+}
+.ramount{
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+    text-transform: capitalize;
+    width: 50%;
+    margin-left: 23%;
+}

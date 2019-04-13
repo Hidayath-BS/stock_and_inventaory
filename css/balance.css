@@ -1,0 +1,358 @@
+.smodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.smodal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.sclose {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sclose:hover,
+.sclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.smodal-header {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+
+}
+.balamt1{
+    margin-left: 18px;
+/*    margin-top: 20px;*/
+}
+
+.smodal-body {padding: 2px 16px;}
+
+.smodal-footer {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+.balsubmit{
+        margin-left: -60px;!important
+}
+
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 145px;
+    float: left;
+    height: 43px;
+/*    margin-top: 30px;*/
+}
+.balamt{
+    margin-left: 25px;
+}
+.balamt2{
+    margin-left: 0px;
+}
+
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+/*    margin-top: 30px;*/
+}
+.balmodalbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    float: right;
+    color: white;
+}
+.baladd{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 6px;
+    color:white;
+
+}
+.baladdbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+
+}
+.balmtext{
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+}
+
+.baltext{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+}
+.baltd{
+    margin-left: 27px;
+    margin-top: 10px;
+
+}
+.radio-inline,
+.checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.ballabel{
+    padding:6px -1px 6px 0px; !important
+}
+
+
+label {
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+.baldate{
+   margin-top: 10px;
+    margin-left: 7px;
+}
+.balsubmit{
+        margin-left: 50px;!important
+}
+.balrow{
+    margin-top: -18px;
+}
+.balsales{
+        margin-left: 27px;
+}
+.balselect{
+    width: 67%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+
+}
+.balborder{
+
+    max-width: 90% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 20px;
+    padding-left: 11%;
+    height: 50px;
+/* text-align: center !important;*/
+}
+.balborder1{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 20px;
+    height: 50px;
+}
+.balborder2{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 10px;
+    height: 50px;
+}
+.balbord{
+    max-width: 25% !important;
+    border: 2px solid lightgrey;
+    margin: 10px 0px 0px 20px;
+    height: 100px;
+
+}
+.balselect{
+    margin-top: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.balradio{
+    max-width: 18% !important;
+    border: 2px solid lightgrey;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+}
+.balradio1{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+}
+
+.balproduct{
+    margin:0px -12px 0px -18px !important;
+}
+.balpro{
+    margin-left: -1px;
+}
+
+.balcheck{
+     margin-top:18px;
+    margin-left: 5px;
+}
+.balcheck1{
+   margin-left: 6px;
+    margin-top: 14px;
+}
+
+.addbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+
+}
+.buttonreset{
+     background-color: #e00f1b;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+
+}
+.baladd{
+  margin-top: 0px;
+}
+.datecustrecev{
+    width: 50%;
+    border: 1px solid #eee;
+    margin-left:19%;
+
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+    text-transform: capitalize;
+    
+}
+.suprecev{
+    width: 50%;
+    border: 1px solid #eee;
+    margin-left:19%;
+
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 28px;
+    text-transform: capitalize;
+    
+}

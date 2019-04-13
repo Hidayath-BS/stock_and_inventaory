@@ -1,0 +1,359 @@
+.searchbutton{
+    height: 40px; !important
+
+}
+
+#billNoInput{
+  border-radius: 4px;
+  height: 40px; !important
+    width:20px; !important
+}
+#page-top > div > div.co.ntainer-fluid > div > div:nth-child(1) > div{
+  width: 72%;
+}
+* {
+    box-sizing: border-box;
+}
+.buttonsubmit{
+    background-color: #fff;
+    color: #000;
+    border: green;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    cursor: pointer;*/
+    margin-left: 73%;
+    float: left;
+    height: 43px;
+
+}
+.buttonsubmit:hover{
+    background-color: #3e8e41;
+    color:white;
+}
+.buttonreset{
+   padding: 5px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: red;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 9px;
+/*    cursor: pointer;*/
+    float: left;
+    height: 43px;
+
+}
+.buttonreset:hover{
+    background-color: #ff4d4d !important;
+    color:white !important;
+}
+.buttonsave1{
+    background-color: #fff;
+    color: #000;
+    border: #ffc107;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+/*    cursor: pointer;*/
+    margin-left: 4px;
+    float: left;
+    height: 43px;
+
+}
+.buttonsave1:hover{
+    background-color: #ffc107;
+    color:white;
+}
+.buttonsave3{
+   padding: 5px ;
+    background-color: #fff;
+    color: #000 !important;
+    border: green ;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 4px;
+/*    cursor: pointer;*/
+/*    float: left;*/
+    height: 43px;
+
+}
+.buttonsave3:hover{
+    background-color: #3e8e41 !important;
+    color:white !important;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 22px;
+
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+.unitu{
+    width: 13%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: 7px;
+}
+
+.purreturnrow{
+    margin-top:-8px;
+}
+.retpro{
+ margin-left: 3px !important;
+
+}
+
+
+
+}
+margin-top: -10px;
+    margin-left: -15px;
+.purbill1 {
+    margin-left: 21px;
+}
+.purtext.purbill{
+    margin-left: 4%;
+    padding-left: 10px;
+}
+.purbilll{
+    margin-left: 20px;
+}
+.purbal{
+    margin-left: 106px;
+    padding-left: 10px;
+}
+.purcheq{
+    margin-left: 87px;
+    padding-left: 10px;
+}
+.purtrans{
+    margin-left:68px;
+    padding-left: 10px;
+}
+.purbalance{
+/*
+    margin-left: -10px;
+    margin-top: -12px;
+*/
+}
+
+
+.pursubmit{
+    margin-top:16px;
+}
+.purtext{
+     width: 55%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    margin-top: -10px;
+    margin-left: 2%;
+}
+.purtext1{
+    width: 14%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    margin-top: -10px;
+}
+
+
+.salesqty{
+/*     margin-left: 48px;*/
+/*     margin-left: 7%;*/
+}
+.purunit{
+/*        margin-left: 32px;*/
+    margin-left: 8%;
+
+}
+.purtotal{
+/*    margin-left: 42px;*/
+    margin-left: 10%;
+}
+.purrtext{
+    margin-left: 3%;
+     width: 55%;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    margin-top: -10px;
+/*    margin-left: 2%;*/
+}
+.purqty{
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: 0;
+    padding-left: 10px;
+}
+.buttonsave1{
+    margin-left: 83%;
+    margin-bottom: 18px;
+    margin-top: -48px;
+}
+.purqty1{
+    width: 55%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: 24px;
+}
+.purqty2{
+    width: 55%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: 36px;
+    padding-left: 10px;
+}
+.purselectunit{
+    width: 12%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: -16px;
+}
+.purselect{
+    width: 55%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: 41px;
+    }
+
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 57%;
+    float: left;
+    height: 43px;
+}
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+}
+
+
+
+label {
+    padding: 0px 10px 8px 0;
+    display: inline-block;
+}
+
+.addbutton{
+        background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+
+}
+
+.tableborder{
+    margin-left: 5px;
+    width:100%;
+    margin-top: 2px;!important
+
+
+}
+
+.prtt{
+margin-top:-3%;
+/*    margin-left:-2%;*/
+}
+.purtext.totpayy{
+    margin-left: 0%;
+}
+.purtext.amrece{
+    margin-left: 2%;
+}
+.purtext.balam{
+    margin-left: 12%;
+}
+.purtext.chnum{
+    margin-left: 5%;
+}
+.purtext.transid{
+    margin-left: 16%;
+}
+.headtrans{
+    margin-left: 4%;
+    margin-top: 10px;
+}
+.radioone{
+    margin-left:-36%;
+    margin-top:8px;
+}
+.radiotwo{
+    margin-top:8px;
+}
+.headpurchase{
+    margin: -18px 0px 8px 0px;
+}
+.purtext.purbilll{
+    margin-left: 10%;
+}
+.purtext.custname{
+    margin-left: 1%;
+}

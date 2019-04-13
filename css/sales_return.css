@@ -1,0 +1,249 @@
+.searchbutton{
+    height: 40px; !important
+}
+#page-top > div > div.container-fluid > div > div:nth-child(1) > div{
+  width: 72%;
+}
+#billNoInput{
+  border-radius: 4px;
+  height: 40px; !important
+    width:20px; !important
+}
+#page-top > div > div.co.ntainer-fluid > div > div:nth-child(1) > div{
+  width: 72%;
+}
+#page-top > div > div.container-fluid > div > div:nth-child(2) > form > span{
+       margin-top: 6px;
+    margin-left: 40px;
+}
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 22px;
+
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+.purreturnrow{
+    margin-top:-8px;
+}
+.purbill1 {
+    margin-left: 21px;
+}
+.purbill{
+    margin-left: -6px;
+}
+.purbilll{
+    margin-left: 20px;
+}
+.purbal{
+    margin-left: 130px;
+}
+.purcheq{
+    margin-left: 86px;
+}
+.purtrans{
+    margin-left: 68px;
+}
+.purbalance{
+    margin-left: 52px;
+}
+.pursubmit{
+    margin-top:16px;
+}
+.purunit{
+    width:13%;
+     border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.purtext{
+     width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.purtext1{
+     width: 34%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.salesqty{
+     margin-left: 48px;
+}
+.purqty{
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: 48px;
+}
+.purqty1{
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: 43px;
+    padding-left: 10px;
+}
+.purqty2{
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: 67px;
+    padding-left: 10px;
+}
+.purselectunit{
+    width: 12%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: -16px;
+}
+.purselect{
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    margin-left: 41px;
+    padding-left: 10px;
+    }
+
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 57%;
+    float: left;
+    height: 43px;
+}
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+}
+
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.buttonsubmit{
+    background-color: #534fa9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 68%;
+    float: left;
+    height: 43px;
+
+}
+.addbutton{
+        background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+
+}
+.buttonreset{
+     background-color: #f3565f;
+
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+
+}
+.tableborder{
+    width:100%;
+    margin-top: 2px;!important
+}
+table, th, td {
+    border: 1px solid lightgrey;
+
+}
+th,td{
+     width: 50%;
+    padding: 15px;
+}
+
+/*
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+input[type=reset] {
+    background-color: #FF8C00;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+*/

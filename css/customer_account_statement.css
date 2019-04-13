@@ -1,0 +1,93 @@
+
+.balancesheetbutt{
+    background-color: #fff;
+    color: green;
+    border: green;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+
+    margin-left: 73%;
+    float: left;
+    height: 43px;
+   
+}
+.balancesheetbutt:hover{
+    background-color: #3e8e41;
+    color:white;
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+
+
+.datetextt{
+     width: 38%;
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;  
+}
+.dropcas{
+    width: 38%;
+    padding:1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;  
+}
+
+.headingcas{
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+.footlines{
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+

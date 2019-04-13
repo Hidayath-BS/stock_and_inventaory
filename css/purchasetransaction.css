@@ -1,0 +1,682 @@
+.smodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.smodal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.sclose {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sclose:hover,
+.sclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.smodal-header {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+    
+}
+
+.smodal-body {padding: 2px 16px;}
+
+.smodal-footer {
+    padding: 2px 16px;
+    background-color: lightcoral;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+.cashsubmit{
+        margin-left: -60px;!important
+}
+
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 145px;
+    float: left;
+    height: 43px;
+/*    margin-top: 30px;*/
+}
+.cashamt{
+    margin-left: 15px;
+}
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+/*    margin-top: 30px;*/
+}
+.purmodalbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    float: right;
+    color: white;
+}
+.cashadd{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 6px;
+    color:white;
+    
+}
+.cashaddbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 65px;
+}
+.cashmtext{
+    width: 61%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;
+}
+
+.cashtext{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;  
+}
+.cashtd{
+    margin-left: 27px;
+    margin-top: 10px;
+   
+}
+.radio-inline,
+.checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.cashlabel{
+    padding:6px -1px 6px 0px !important; 
+}
+.cashlabel{
+    padding:6px -1px 6px 0px; !important
+}
+
+
+label {
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+.cashdate{
+   margin-top: 10px;
+    margin-left: 7px;
+}
+.buttonsubmit{
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 108px;
+    float: left;
+    height: 43px;   
+}
+.cashrow{
+    margin-top: -18px;
+}
+.cashsales{
+        margin-left: 27px;
+}
+.cashselect{
+    width: 67%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    
+}
+.cashborder{
+
+    max-width: 90% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 20px;
+    padding-left: 11%;
+    height: 50px;
+/* text-align: center !important;*/
+}
+.cashborder1{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 20px;
+    height: 50px;
+}
+.cashborder2{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin:20px 0px 0px 10px;
+    height: 50px;
+}
+.cashbord{
+    max-width: 25% !important;
+    border: 2px solid lightgrey;
+    margin: 10px 0px 0px 20px;
+    height: 100px;
+ 
+}
+.cashselect{
+    margin-top: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+.cashradio{
+    max-width: 18% !important;
+    border: 2px solid lightgrey;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+}
+.cashradio1{
+    max-width: 30% !important;
+    border: 2px solid lightgrey;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+}
+
+.cashproduct{
+    margin:0px -12px 0px -18px !important;
+}
+.cashpro{
+    margin-left: -1px;
+}
+
+.cashcheck{
+     margin-top:18px;
+    margin-left: 5px;
+}
+.cashcheck1{
+   margin-left: 6px;
+    margin-top: 14px;
+}
+
+.addbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    
+}
+.buttonreset{
+     background-color: #e00f1b;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+    
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+.cust_line{
+    border: 3px solid lightgrey;
+    padding-top: 22px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    
+}
+.cust-body{
+    padding:15px;
+}
+.cust_details h2.title1{
+    text-align: center;
+    padding: 1em;
+    background: #629aa9;
+    border-bottom: 10px solid #4b7884;
+    margin: 0;
+	color: #fff;
+    font-size: 1.6em;
+}
+.cust-body {
+	padding: 0px 10px;
+}
+
+select {
+     width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+input[type=reset] {
+    background-color: #e00f1b;
+    color:#fff;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+/*    margin-top: 30px;*/
+}
+input[type=submit] {
+    background-color: #1d16ab;
+    padding: 10px 20px;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     margin-left: 145px;
+    float: left;
+    height: 43px;
+/*    margin-top: 30px;*/
+}
+.purtext{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    text-transform: capitalize;  
+}
+/*
+input[type=text], textarea{
+    width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+*/
+
+#name{
+    margin-left: -13px;
+}
+#name1{
+     margin-left: 62px;
+}
+#city {
+    margin-left: 37px;
+ 
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#state {
+    margin-left: 192px;
+   
+   
+}
+#address1 {
+    margin-left: 87px;
+    
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#netweight {
+    
+    margin-left:6%;
+    margin-top: -09%;
+    width: 48%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+    background: #e6e1e1;
+}
+#address{
+    margin-left: 6px;
+}
+
+#phone {
+    margin-left: 38px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#total {
+    margin-left: 74px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#transid {
+    margin-left: 2%;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+
+#phone1 {
+    margin-left: -5px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;
+}
+#accname{
+   margin-left: 12px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;  
+}
+ 
+#emptyw{
+   margin-left: 9px;
+     width: 35%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;  
+}
+ 
+#accountno{
+    margin-left: 64px;
+     width: 35%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px; 
+
+}
+ 
+#shrink{
+    margin-left: 124px;
+     width: 35%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px; 
+}
+#branch{
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px; 
+    margin-top:10px;
+ 
+}
+#final{
+    margin-left:2%;
+    margin-top: -9% !important;
+     width: 48%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px; 
+    margin-top:10px;
+    background: #e6e1e1;
+}
+#chequeno{
+    margin-left:-7px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px; 
+    margin-top:10px;
+}
+#location{
+    margin-left:47px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px; 
+    margin-top:10px;
+}
+#ifsc{
+   margin-left: 124px;
+     width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:28px;  
+}
+#loaded{
+    width:144%;
+    margin-left: -139px;
+    height: 25px;
+}
+#loaded1{
+    width:144%;
+    margin-left:-200px;
+    height:25px;
+}
+label {
+    padding: 12px 14px 12px 0;
+    display: inline-block;
+}
+.buttonsubmit{
+    background-color: #534fa9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 68%;
+    float: left;
+    height: 43px;
+    
+    
+}
+
+.purtranssubmit{
+    margin-left:60%;
+    margin-top: 10px;
+}
+
+.addbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    
+}
+.buttonreset{
+     background-color:  #e00f1b;
+    padding: 10px 20px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 43px;
+    
+}
+.puradd{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 6px;
+    color:white;
+    
+}
+.puraddbutton{
+    background-color: #1d16ab;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 65px;
+}

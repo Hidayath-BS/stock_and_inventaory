@@ -1,0 +1,48 @@
+/* Tabs*/
+section {
+    padding: 10px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	background: rgba(0,0,0,.03);
+    color: #000;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color:#120f6f;
+    font-size: 18px;
+}
+
+.card-body1{
+	    flex: 1 1 auto;
+/*    padding: 1.25rem;*/
+}
+
+
+.nav-fill .nav-item1 {
+/*    -ms-flex: 1 1 auto;*/
+    flex: 0.4 0.4 auto;
+    flex-grow: 0.3;
+    flex-shrink: 0.3;
+    flex-basis: auto;
+    text-align: center;
